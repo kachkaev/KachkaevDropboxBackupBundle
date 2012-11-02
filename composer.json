@@ -1,0 +1,46 @@
+{
+    "name": "kachkaev/dropbox-backup-bundle",
+    "type": "symfony-bundle",
+    "description": "Allows backing up your mysql database to dropbox using symfony console",
+    "keywords": ["dropbox", "database", "mysql", "dump"],
+    "homepage": "http://github.com/kachkaev/KachkaevDropboxBackupBundle",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Alexander Kachkaev",
+            "email": "alexander@kachkaev.ru",
+            "homepage": "http://en.kachkaev.ru/"
+        },
+		{
+            "name": "Contributors",
+            "homepage": "https://github.com/kachkaev/KachkaevDropboxBackupBundle/contributors"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0,<2.3-dev",
+        "doctrine/doctrine-bundle": "1.0.*"
+    },
+
+    "require-dev": {
+    },
+
+    "suggest": {
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Kachkaev\\KachkaevDropboxBackupBundle": ""
+        }
+    },
+
+    "target-dir": "Kachkaev/KachkaevDropboxBackupBundle",
+
+	"extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
