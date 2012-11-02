@@ -36,7 +36,7 @@
         }
     },
 
-    "target-dir": "Kachkaev/KachkaevDropboxBackupBundle",
+    "target-dir": "Kachkaev/DropboxBackupBundle",
 
 	"extra": {
         "branch-alias": {
