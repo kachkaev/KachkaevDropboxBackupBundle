@@ -5,6 +5,12 @@ This bundle allows you backing up your mysql database to dropbox using symfony c
 
 Uses modified version of [DropboxUploader by hakre](https://github.com/hakre/DropboxUploader).
 
+__IMPORTANT__
+
+This repository is abandoned and has not been updated since 2013. Please enjoy these alternatives with a far greater functionality:
+* https://github.com/kbond/php-backup
+* https://github.com/dizda/CloudBackupBundle
+
 Installation
 ------------
 
